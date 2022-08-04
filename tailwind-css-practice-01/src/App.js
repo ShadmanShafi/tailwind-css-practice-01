@@ -34,7 +34,7 @@ function App() {
           <div className="h-auto w-full lg:w-auto">
             <img className="rounded-lg" src={stockImage} />
           </div>
-          <div className="h-auto mt-6 w-full lg:w-2/3">
+          <div className="h-auto mt-6 w-full">
             <div className="">
               <h1 className="text-secondary font-bold text-xl md:text-2xl lg:text-3xl">
                 The emergence of niche banking
