@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       {/* Header */}
-      <div className="text-center">
+      <div className="text-center font-">
         <h1 className="font-bold text-primary mt-12 mb-3 text-lg md:text-xl lg:text-2xl">
           Rehive blog
         </h1>
@@ -17,7 +17,7 @@ function App() {
         </p>
       </div>
 
-      {/* Body Top Section*/}
+      {/* Body Top Section */}
       <div className="mt-10 mx-4 md:mt-18 md:mx-20 lg:mt-28 lg:mx-60">
         <div className="flex place-content-between text-primary font-bold text-base md:text-lg lg:text-xl">
           <p className="">Featured</p>
@@ -49,7 +49,7 @@ function App() {
                 occupy and carry big real estate assets on their balance.
               </p>
             </div>
-            {/* Profiles */}
+            {/* Profile */}
             <div className=" flex space-x-6 mt-4">
               <div>
                 <img className="w-12 h-auto rounded-3xl" src={profilePic} />
