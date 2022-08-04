@@ -17,7 +17,7 @@ function App() {
         </p>
       </div>
 
-      {/* Body Top Section */}
+      {/* Body Top Title */}
       <div className="mt-10 mx-4 md:mt-18 md:mx-20 lg:mt-28 lg:mx-60">
         <div className="flex place-content-between text-primary font-bold text-base md:text-lg lg:text-xl">
           <p className="">Featured</p>
@@ -28,13 +28,13 @@ function App() {
         </div>
       </div>
 
-      {/* Body Content Section */}
-      <div className="mt-6 mx-4 md:mx-20 lg:mx-60 ">
+      {/* Body Top Content */}
+      <div className="mt-6 mx-4 md:mx-20 lg:mx-60">
         <div className="flex-col lg:flex lg:flex-row lg:space-x-10 ">
-          <div className="h-auto w-full lg:w-auto">
+          <div className="h-auto w-full lg:w-auto mb-6">
             <img className="rounded-lg" src={stockImage} />
           </div>
-          <div className="h-auto mt-6 w-full">
+          <div className="h-auto w-full">
             <div className="">
               <h1 className="text-secondary font-bold text-xl md:text-2xl lg:text-3xl">
                 The emergence of niche banking
@@ -49,7 +49,7 @@ function App() {
                 occupy and carry big real estate assets on their balance.
               </p>
             </div>
-            {/* Profile */}
+            {/* Body Top Profile */}
             <div className=" flex space-x-6 mt-4">
               <div>
                 <img className="w-12 h-auto rounded-3xl" src={profilePic} />
@@ -66,6 +66,131 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* Body Bottom Title */}
+      <div className="mt-10 mx-4 md:mt-12 md:mx-20 lg:mt-16 lg:mx-60">
+        <div className="flex place-content-between text-primary font-bold text-base md:text-lg lg:text-xl">
+          <p className="">Latest</p>
+          <div className="flex gap-2">
+            <p className="underline">View all</p>
+            <p>{">"}</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Body Bottom Content */}
+      <div className="flex flex-col md:flex-row lg:flex-row place-content-between mt-6 mx-4 md:mx-20 lg:mx-60 ">
+        <div>
+          {/* Content 1 */}
+          <div className="md:mx-6 lg:mx-4">
+            <div className="h-auto w-full lg:w-auto">
+              <img className="rounded-lg" src={stockImage} />
+            </div>
+            <div className="h-auto mt-6 w-full">
+              <div className="">
+                <h1 className="text-secondary font-bold text-lg md:text-lg lg:text-xl">
+                  The emergence of niche banking
+                </h1>
+              </div>
+              <div>
+                <p className="mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                  
+                </p>
+              </div>
+              {/* Profile 1 */}
+              <div className=" flex space-x-6 mt-4">
+                <div>
+                  <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                </div>
+                <div className="">
+                  <div>
+                    <p className="text-secondary text-sm font-bold mt-1">
+                      Helghardt
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-secondary font-normal text-xs mt-1">August 2nd</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {/* Content 2 */}
+          <div className="md:mx-6 lg:mx-4">
+            <div className="h-auto w-full my-6 md:my-0 lg:my-0 lg:w-auto">
+              <img className="rounded-lg" src={stockImage} />
+            </div>
+            <div className="h-auto mt-6 w-full">
+              <div className="">
+                <h1 className="text-secondary font-bold text-lg md:text-lg lg:text-xl">
+                Rehive's Gig-worker benefits
+                </h1>
+              </div>
+              <div>
+                <p className="mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                Embedded finance with your own branded banking app.
+                </p>
+              </div>
+              {/* Profile 2 */}
+              <div className=" flex space-x-6 mt-4">
+                <div>
+                  <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                </div>
+                <div className="">
+                  <div>
+                    <p className="text-secondary text-sm font-bold mt-1">
+                    Nicholas Nevada Claassens
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-secondary font-normal text-xs mt-1">June 10th</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          {/* Content 3 */}
+          <div className="md:mx-6 lg:mx-4">
+            <div className="h-auto w-full my-6 md:my-0 lg:my-0 lg:w-auto">
+              <img className="rounded-lg" src={stockImage} />
+            </div>
+            <div className="h-auto mt-6 w-full">
+              <div className="">
+                <h1 className="text-secondary font-bold text-lg md:text-lg lg:text-xl">
+                Bank your gig-workers and save on payout fees...
+                </h1>
+              </div>
+              <div>
+                <p className="mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                  What if your marketplace could be making much more than it's currently making from the service fees you charge?
+                </p>
+              </div>
+              {/* Profile 3 */}
+              <div className=" flex space-x-6 mt-4">
+                <div>
+                  <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                </div>
+                <div className="">
+                  <div>
+                    <p className="text-secondary text-sm font-bold mt-1">
+                    Nicholas Nevada Claassens
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-secondary font-normal text-xs mt-1">May 7th</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
     </>
   );
 }
