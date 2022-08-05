@@ -58,11 +58,11 @@ function App() {
             {/* Body Top Profile */}
             <div className=" flex space-x-6 mt-4">
               <div>
-                <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                <img className="w-9 mt-2 md:w-12 md:mt-0 lg:w-12 lg:mt-0 h-auto rounded-3xl" src={profilePic} />
               </div>
               <div className="">
                 <div>
-                  <p className="text-secondary text-lg font-bold">Helghardt</p>
+                  <p className="text-secondary text-sm md:text-lg lg:text-lg font-bold">Helghardt</p>
                 </div>
                 <div>
                   <p className="text-secondary font-normal">August 4th</p>
@@ -85,7 +85,7 @@ function App() {
       </div>
 
       {/* Body Bottom Content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex flex-col md:flex-row lg:flex-row justify-between mt-6 mx-4 md:mx-20 lg:mx-56">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:flex-row lg:flex-row justify-between mt-6 mx-4 md:mx-20 lg:mx-56">
         <div className="">
           {/* Content 1 */}
           <div className="md:mx-6 lg:mx-4">
@@ -104,9 +104,9 @@ function App() {
                 </p>
               </div>
               {/* Profile 1 */}
-              <div className=" flex space-x-6 mt-4">
+              <div className="flex space-x-6 mt-4 mb-4">
                 <div>
-                  <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                  <img className="w-9 mt-2 md:w-12 md:mt-0 lg:w-12 lg:mt-0  h-auto rounded-3xl" src={profilePic} />
                 </div>
                 <div className="">
                   <div>
@@ -142,9 +142,9 @@ function App() {
                 </p>
               </div>
               {/* Profile 2 */}
-              <div className=" flex space-x-6 mt-4">
+              <div className="flex space-x-6 mt-4 mb-4">
                 <div>
-                  <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                  <img className="w-9 mt-2 md:w-12 md:mt-0 lg:w-12 lg:mt-0  h-auto rounded-3xl" src={profilePic} />
                 </div>
                 <div className="">
                   <div>
@@ -183,9 +183,9 @@ function App() {
                 </p>
               </div>
               {/* Profile 3 */}
-              <div className=" flex space-x-6 mt-4">
+              <div className="flex space-x-6 mt-4 mb-4">
                 <div>
-                  <img className="w-12 h-auto rounded-3xl" src={profilePic} />
+                  <img className="w-9 mt-2 md:w-12 md:mt-0 lg:w-12 lg:mt-0 h-auto rounded-3xl" src={profilePic} />
                 </div>
                 <div className="">
                   <div>
