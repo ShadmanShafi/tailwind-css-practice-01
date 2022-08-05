@@ -36,14 +36,20 @@ function App() {
           </div>
           <div className="h-auto w-full">
             <div className="">
-              <h1 className="text-secondary font-bold text-xl md:text-2xl lg:text-3xl">
+              <h1 className="overflow-hidden h-10 text-secondary font-bold text-xl md:text-2xl lg:text-3xl">
                 The emergence of niche banking
               </h1>
             </div>
-            <div>
-              <p className="mt-4 text-secondary font-normal text-base md:text-lg lg:text-xl">
+            <div className="w-fit">
+              <p className="overflow-hidden mt-4 text-secondary font-normal text-base h-24 md:text-lg md:h-36 lg:text-xl lg:h-44">
                 There is no need for brick-and-mortar banks. The days of
                 traditional banks are gone. The reasons they have not
+                disappeared yet? Three major reasons: 1. They don't have the
+                right software or skills to serve customers virtually. 2. They
+                occupy and carry big real estate assets on their balance.
+                disappeared yet? Three major reasons: 1. They don't have the
+                right software or skills to serve customers virtually. 2. They
+                occupy and carry big real estate assets on their balance.
                 disappeared yet? Three major reasons: 1. They don't have the
                 right software or skills to serve customers virtually. 2. They
                 occupy and carry big real estate assets on their balance.
@@ -80,7 +86,7 @@ function App() {
 
       {/* Body Bottom Content */}
       <div className="flex flex-col md:flex-row lg:flex-row place-content-between mt-6 mx-4 md:mx-20 lg:mx-60 ">
-        <div>
+        <div className="">
           {/* Content 1 */}
           <div className="md:mx-6 lg:mx-4">
             <div className="h-auto w-full lg:w-auto">
@@ -88,13 +94,13 @@ function App() {
             </div>
             <div className="h-auto mt-6 w-full">
               <div className="">
-                <h1 className="text-secondary font-bold text-lg md:text-lg lg:text-xl">
+                <h1 className="overflow-hidden h-7 text-secondary font-bold text-lg md:text-lg lg:text-xl">
                   The emergence of niche banking
                 </h1>
               </div>
               <div>
-                <p className="mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
-                  
+                <p className="overflow-hidden h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                  {/* asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd  */}
                 </p>
               </div>
               {/* Profile 1 */}
@@ -109,7 +115,9 @@ function App() {
                     </p>
                   </div>
                   <div>
-                    <p className="text-secondary font-normal text-xs mt-1">August 2nd</p>
+                    <p className="text-secondary font-normal text-xs mt-1">
+                      August 2nd
+                    </p>
                   </div>
                 </div>
               </div>
@@ -124,13 +132,13 @@ function App() {
             </div>
             <div className="h-auto mt-6 w-full">
               <div className="">
-                <h1 className="text-secondary font-bold text-lg md:text-lg lg:text-xl">
-                Rehive's Gig-worker benefits
+                <h1 className="overflow-hidden h-7 text-secondary font-bold text-lg md:text-lg lg:text-xl">
+                  Rehive's Gig-worker benefits
                 </h1>
               </div>
               <div>
-                <p className="mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
-                Embedded finance with your own branded banking app.
+                <p className="overflow-hidden h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                  Embedded finance with your own branded banking app.
                 </p>
               </div>
               {/* Profile 2 */}
@@ -141,11 +149,13 @@ function App() {
                 <div className="">
                   <div>
                     <p className="text-secondary text-sm font-bold mt-1">
-                    Nicholas Nevada Claassens
+                      Nicholas Nevada Claassens
                     </p>
                   </div>
                   <div>
-                    <p className="text-secondary font-normal text-xs mt-1">June 10th</p>
+                    <p className="text-secondary font-normal text-xs mt-1">
+                      June 10th
+                    </p>
                   </div>
                 </div>
               </div>
@@ -160,13 +170,14 @@ function App() {
             </div>
             <div className="h-auto mt-6 w-full">
               <div className="">
-                <h1 className="text-secondary font-bold text-lg md:text-lg lg:text-xl">
-                Bank your gig-workers and save on payout fees...
+                <h1 className="overflow-hidden h-7 text-secondary font-bold text-lg md:text-lg lg:text-xl">
+                  Bank your gig-workers and save on payout fees...
                 </h1>
               </div>
               <div>
-                <p className="mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
-                  What if your marketplace could be making much more than it's currently making from the service fees you charge?
+                <p className="overflow-hidden h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                  What if your marketplace could be making much more than it's
+                  currently making from the service fees you charge?
                 </p>
               </div>
               {/* Profile 3 */}
@@ -177,11 +188,13 @@ function App() {
                 <div className="">
                   <div>
                     <p className="text-secondary text-sm font-bold mt-1">
-                    Nicholas Nevada Claassens
+                      Nicholas Nevada Claassens
                     </p>
                   </div>
                   <div>
-                    <p className="text-secondary font-normal text-xs mt-1">May 7th</p>
+                    <p className="text-secondary font-normal text-xs mt-1">
+                      May 7th
+                    </p>
                   </div>
                 </div>
               </div>
@@ -189,8 +202,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      
     </>
   );
 }
