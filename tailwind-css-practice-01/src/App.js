@@ -36,7 +36,7 @@ function App() {
           </div>
           <div className="h-auto w-full">
             <div className="">
-              <h1 className="overflow-hidden h-10 text-secondary font-bold text-xl md:text-2xl lg:text-3xl">
+              <h1 className="overflow-hidden h-8 text-secondary font-bold text-xl md:text-2xl lg:text-3xl lg:h-10">
                 The emergence of niche banking
               </h1>
             </div>
@@ -85,7 +85,7 @@ function App() {
       </div>
 
       {/* Body Bottom Content */}
-      <div className="flex flex-col md:flex-row lg:flex-row place-content-between mt-6 mx-4 md:mx-20 lg:mx-60 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex flex-col md:flex-row lg:flex-row justify-between mt-6 mx-4 md:mx-20 lg:mx-56">
         <div className="">
           {/* Content 1 */}
           <div className="md:mx-6 lg:mx-4">
@@ -99,7 +99,7 @@ function App() {
                 </h1>
               </div>
               <div>
-                <p className="overflow-hidden h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                <p className="overflow-hidden h-16 md:h-20 lg:h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
                   {/* asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd asdasd  */}
                 </p>
               </div>
@@ -137,7 +137,7 @@ function App() {
                 </h1>
               </div>
               <div>
-                <p className="overflow-hidden h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                <p className="overflow-hidden h-16 md:h-20 lg:h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
                   Embedded finance with your own branded banking app.
                 </p>
               </div>
@@ -175,8 +175,10 @@ function App() {
                 </h1>
               </div>
               <div>
-                <p className="overflow-hidden h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
+                <p className="overflow-hidden h-16 md:h-20 lg:h-24 mt-4 text-secondary font-normal text-xs md:text-sm lg:text-base">
                   What if your marketplace could be making much more than it's
+                  currently making from the service fees you charge? What if your marketplace could be making much more than it's
+                  currently making from the service fees you charge? What if your marketplace could be making much more than it's
                   currently making from the service fees you charge?
                 </p>
               </div>
